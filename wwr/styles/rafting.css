@@ -99,7 +99,7 @@ h2{
 
 selection{
 
-    margin: 16;
+  
     padding-right: 16px;
     position: relative;
     align-items: right;
@@ -140,12 +140,6 @@ nav a{
    background-color:#47334e;
    color: #bd93bd;
 
-}
-
-p{
-
-    margin: 16;
-    padding: 8;
 }
 
 article{
