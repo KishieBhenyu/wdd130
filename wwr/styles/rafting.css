@@ -143,16 +143,12 @@ nav a{
 }
 
 article{
-
-    margin: 16;
-    padding: 8;
     display: flex;
     flex-flow: row;
     padding: 5px;
 }
 
 .hero{
-
     position: relative;
 }
 
