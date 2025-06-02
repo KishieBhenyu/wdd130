@@ -190,6 +190,7 @@ article{
 
 footer{
     display: flex;
+    flex-direction: row;
     position: relative;
     background-color: var(--primary-color);
     color: var(--accent-color1);
@@ -211,6 +212,8 @@ footer{
    width: 40px;
    height: auto;
    bottom: 15px;
+   display: flex;
+   flex-direction: row;
   
 
 }
