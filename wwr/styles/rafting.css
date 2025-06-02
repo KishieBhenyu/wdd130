@@ -87,7 +87,6 @@ h1{
 h2{
 
    font-family: "Source Serif 4", serif;
-  font-optical-sizing:auto;
   font-style: normal;
   color: var(--accent-color1);
   padding: 10px;
@@ -102,7 +101,6 @@ selection{
   
     padding-right: 16px;
     position: relative;
-    align-items: right;
     display: flex;
     flex-flow: row;
     gap: 16px;
@@ -187,9 +185,8 @@ footer{
     background-color:#bd93bd;
     margin: 0.5rem auto;
 	grid-template-columns: 120px 1fr 1fr;
-	align-items: right;
+	
 	width: 1025px;
-    height: 9%;
     right: 350px;
     padding: 1%;
     justify-content: right;
@@ -234,7 +231,6 @@ border: #000 solid ;
 }
 section {
   position: relative;
-  align-items: right;
   display: flex;
   flex-flow: row;
   padding: 5px;
@@ -248,8 +244,7 @@ section {
 }
 
 section img {
-  max-width: 197px;
-  max-height: auto;
+  max-width: 197px; 
 }
 figure{
     padding: 5px;
