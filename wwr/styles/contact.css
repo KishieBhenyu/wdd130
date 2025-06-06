@@ -92,7 +92,7 @@ header{
     position: relative;
     background-color: var(--primary-color);
     color: var(--accent-color1);
-    background-color: #bd93bd;
+    background-color: #835d91;
     margin: 0.5rem auto;
 	display: grid;
 	grid-template-columns: 120px 1fr 1fr;
@@ -135,8 +135,8 @@ footer{
     display: flex;
     position: relative;
     background-color: var(--primary-color);
-    color: #000;
-    background-color:#bd93bd;
+    color:#ffffff;
+    background-color:#835d91;
     margin: 0.5rem auto;
 	grid-template-columns: 120px 1fr 1fr;
 	align-items: right;

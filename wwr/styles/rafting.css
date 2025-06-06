@@ -13,7 +13,7 @@ header{
     position: relative;
     background-color: var(--primary-color);
     color: var(--accent-color1);
-    background-color: #bd93bd;
+    background-color: #835d91;
     margin: 0.5rem auto;
 	display: grid;
 	grid-template-columns: 120px 1fr 1fr;
@@ -30,6 +30,23 @@ header img{
 	height: auto;
     padding: 5px;
 }
+.handles{
+    display: flex;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-left: 20px;
+    float: left;
+    justify-content: space-evenly;
+	
+    
+}
+.handles a{
+    color:#fff;
+   
+}
+.handles a:hover{
+   color:#47334e;}
 *{
 
     margin: 0;
@@ -51,16 +68,6 @@ main {
 
 }
 
-footer {
-    
-    width: 840px;
-    margin: 0 auto;
-    display: flex;
-    
-    float: right;
-    
-
-}
 
 
 h1{
@@ -112,32 +119,6 @@ selection img{
 
 }
 
-.handles {
-    padding: 0px;
-    display: flex;
-    justify-content: end;
-    list-style-type: none;
-    float: right;
-    flex: 1 1 auto;
-    flex-wrap: wrap;
-    
-}
-nav a{
-    text-decoration: none;
-    padding: 8px;
-    background-color: antiquewhite;
-    display: flex;
-    font-size: 20px;
-    border-radius: 20px;
-    margin-left: 6px;
-	
-    
-}
-.nav a:hover{
-   background-color:#47334e;
- 
-
-}
 
 p{
 
@@ -190,14 +171,14 @@ footer{
     display: flex;
     position: relative;
     background-color: var(--primary-color);
-    color: var(--accent-color1);
-    background-color:#bd93bd;
+    color: #ffffff;
+    background-color: #835d91;
     margin: 0.5rem auto;
 	grid-template-columns: 120px 1fr 1fr;
 	align-items: right;
-	width: 1025px;
+	width: 1035px;
     height: 9%;
-    right: 350px;
+    left: 90px;
     padding: 1%;
     justify-content: right;
     
@@ -213,7 +194,9 @@ footer{
 
 }
 
-
+.socialmedia a{
+    padding: 5px;
+}
 article{
  margin: 16px;
  padding: 30px;
