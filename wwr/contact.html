@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="RAFTING COMPANY ">
+    <meta name="author" content="Kishie Bhenyu">
+     <title>CONTACT US PAGE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="C:\Users\KISH\Documents\SCHOOL\TERM 3\web development\wdd130\wwr\contact.css">
+   
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Rafting_Company_logo">
+     <nav class = "handles">
+        <a href="C:\Users\KISH\Documents\SCHOOL\TERM 3\web development\wdd130\index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="trips.html">Trips</a>
+        <a href="contact.html">Contact Us</a>
+     </nav>
+  </header>  
+  <main>
+    <h1>Contact Us</h1>
+    <section class="contact-info">
+      <p><strong>Address:</strong> 123 River Rapids Lane, Harare, Zimbabwe</p>
+      <p><strong>Phone:</strong> +263 77 123 4567</p>
+      <p><strong>Email:</strong> <a href="mailto:info@raftingadventures.co.zw">info@raftingadventures.co.zw</a></p>
+    </section>
+
+    <!-- Embedded Google Map -->
+    <section class="map">
+      <h2 class="location">Our Location</h2>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.123456789!2d31.0456789!3d-17.8292222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1931a123456789ab%3A0xcba9876543210fed!2s123%20River%20Rapids%20Lane%2C%20Harare%2C%20Zimbabwe!5e0!3m2!1sen!2szw!4v1623456789012"
+        width="600"
+        height="450"
+        frameborder="0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </section>
+
+    <!-- Employee Profiles -->
+       <h2 class="meet">Meet Our Team</h2>
+    <section class="employees">
+    <figure>
+        <img src="images/worker1.jpg" alt="Tinotenda Banda - Tour Guide" />
+        <figcaption>Tinotenda Banda - Tour Guide</figcaption>
+      </figure>
+      <figure>
+        <img src="images/worker2.jpg" alt="Taurai Moyo - Safety Officer" />
+        <figcaption>Taurai Moyo - Safety Officer</figcaption>
+      </figure>
+      <figure>
+        <img src="images/worker3.jpg" alt="Tapera Gudo - Customer Service" />
+        <figcaption>Tapera Gudo  - Customer Service</figcaption>
+      </figure>
+    </section>
+
+    <!-- User Comment Form -->
+    <section class="contact-form">
+      <h2 class = "contact">Send Us a Message</h2>
+      <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <p>Purpose of Message:</p>
+        <label><input type="radio" name="purpose" value="general" required /> General Inquiry</label>
+        <label><input type="radio" name="purpose" value="reservation" /> Reservation Question</label>
+        <label><input type="radio" name="purpose" value="suggestion" /> Website Suggestion</label>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <label><input type="checkbox" name="subscribe" /> Please subscribe me to the monthly newsletter</label>
+
+        <button type="submit">Submit Message</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 | Peru Rafting Company | Kishie Bhenyu </p> 
+    <nav class = "socialmedia">
+        <a href="https//facebook.com">
+            <img src="images/facebook.png" alt="facebook">
+        </a>
+        <a href="https//instagram.com">
+            <img src="images/instagram.png" alt="instagram">
+        </a>
+        <a href="https//x.com">
+            <img src="images/x.png" alt="x">
+        </a>
+    </nav>
+  </footer>
+</body>
+</html>

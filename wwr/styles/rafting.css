@@ -50,6 +50,7 @@ main {
     margin: 0 auto;
 
 }
+
 footer {
     
     width: 840px;
@@ -61,14 +62,11 @@ footer {
 
 }
 
- main {
-    width: 840px;
-    margin: 0 auto;
 
-}
 h1{
 
   font-family: "Source Serif 4", serif;
+  font-optical-sizing:auto;
   font-style: normal;
   color: var(--accent-color1);
   position: absolute;
@@ -87,23 +85,23 @@ h1{
 h2{
 
    font-family: "Source Serif 4", serif;
+  font-optical-sizing:auto;
   font-style: normal;
   color: var(--accent-color1);
   padding: 10px;
   text-align: center;
-  position: relative;
-  top: 10px;
   
 }
 
 selection{
 
-  
-    padding-right: 16px;
+    margin: 16;
+    padding: 8;
     position: relative;
+    align-items: right;
     display: flex;
     flex-flow: row;
-    gap: 16px;
+    gap: 10px;
    
 }
 
@@ -111,6 +109,7 @@ selection img{
    
    width: 200px;
     height:auto;
+
 }
 
 .handles {
@@ -134,19 +133,29 @@ nav a{
 	
     
 }
- nav a:hover{
+.nav a:hover{
    background-color:#47334e;
-   color: #bd93bd;
+ 
 
 }
 
+p{
+
+    margin: 16;
+    padding: 8;
+}
+
 article{
+
+    margin: 16;
+    padding: 8;
     display: flex;
     flex-flow: row;
     padding: 5px;
 }
 
 .hero{
+
     position: relative;
 }
 
@@ -185,8 +194,9 @@ footer{
     background-color:#bd93bd;
     margin: 0.5rem auto;
 	grid-template-columns: 120px 1fr 1fr;
-	
+	align-items: right;
 	width: 1025px;
+    height: 9%;
     right: 350px;
     padding: 1%;
     justify-content: right;
@@ -231,6 +241,7 @@ border: #000 solid ;
 }
 section {
   position: relative;
+  align-items: right;
   display: flex;
   flex-flow: row;
   padding: 5px;
@@ -238,13 +249,15 @@ section {
   margin: auto;
   right: 340px;
   border: 10px thin #000;
+
  
  
   
 }
 
 section img {
-  max-width: 197px; 
+  max-width: 197px;
+  max-height: auto;
 }
 figure{
     padding: 5px;
