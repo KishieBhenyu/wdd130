@@ -146,18 +146,19 @@ footer{
     padding: 1%;
     justify-content: right;
     float: right;
-
+   
 }
 
 .socialmedia img{
    width: 40px;
    height: auto;
    bottom: 15px;
-  
-
+  border-radius: 50%;
+  padding: 1%;
 }
 .socialmedia a{
     padding: 5px;
+   
 }
 .handles{
     display: flex;
@@ -240,7 +241,11 @@ footer{
   left: 80px;
 
   }
-  
+  .wireframe{
+    position: relative;
+    float: left;
+    justify-content: right;
+  }
  
 
  
