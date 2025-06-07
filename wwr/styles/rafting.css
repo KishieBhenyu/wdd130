@@ -122,14 +122,14 @@ selection img{
 
 p{
 
-    margin: 16;
-    padding: 8;
+    margin: 16px;
+    padding: 8px;
 }
 
 article{
 
-    margin: 16;
-    padding: 8;
+    margin: 16px;
+    padding: 8px;
     display: flex;
     flex-flow: row;
     padding: 5px;
@@ -175,7 +175,7 @@ footer{
     background-color: #835d91;
     margin: 0.5rem auto;
 	grid-template-columns: 120px 1fr 1fr;
-	align-items: right;
+	
 	width: 1035px;
     height: 9%;
     left: 90px;
@@ -224,7 +224,7 @@ border: #000 solid ;
 }
 section {
   position: relative;
-  align-items: right;
+ 
   display: flex;
   flex-flow: row;
   padding: 5px;
@@ -240,7 +240,7 @@ section {
 
 section img {
   max-width: 197px;
-  max-height: auto;
+ 
 }
 figure{
     padding: 5px;
