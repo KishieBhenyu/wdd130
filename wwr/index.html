@@ -6,35 +6,79 @@
     <title>KISHIE BHENYU | WDD 130</title>
     <meta name="description" content="RAFTING WEBSITE">
     <meta name="author" content="Kishie Bhenyu">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
     
 </head>
 <body>
   <header>
-     <nav>
-        <a href="#"> HOME </a>
-        <a href="wwr/"> RAFTING WEBSITE </a>
+     <img src="images/logo.png" alt="Rafting_Company_logo">
+     <nav class = "handles">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="trips.html">Trips</a>
+        <a href="contact.html">Contact Us</a>
      </nav>
-  </header>  
-   <main>
-        <h1> 
-          KISHIE BHENYU | WWD 130  
-        </h1>
-        <img src="images/profile.jpg" alt="Hello my is Kishie Bhenyu">
-        <p>Hello my name is Kishie Bhenyu. I am from Zimbabwe. I enjoy practicing web development and I wish that one day I become a full stack web developer.</p>
-  
-    </main>
-  <aside>
-    <h2> Zimbabwe </h2>
-    <img src="images/zim.jpg" alt="My country Zimbabwe">
-    <p>Zimbabwe is a landlocked country in Southern Africa, known for its diverse landscapes, 
-      rich wildlife, and historical landmarks like the Great Zimbabwe Ruins.
-      It's a parliamentary democracy with a mixed economy. Zimbabwe gained independence in 
-      1980 after a period of colonial rule. </p>
-  </aside>
+  </header>
 
+  <!-- Hero Section -->
+  <section class="hero">
+    <img src="images/hero.jpg" alt="Rafting Hero">
+    <div class="hero-text">
+      <h1>Experience the Rush of White Water!</h1>
+      <a href="trips.html" class="cta-button">See Our Trips →</a>
+    </div>
+  </section>
+
+  <!-- Grid Content Section -->
+  <section class="grid-section">
+    <div class="grid-item image">
+      <img src="images/story.png" alt="Our Story">
+    </div>
+    <div class="grid-item text">
+      <h2>Our Story</h2>
+      <p>Founded by adventurers for adventurers—our mission is to deliver unforgettable river experiences for people of all levels.</p>
+    </div>
+    <div class="grid-item image">
+      <img src="images/guide.png" alt="Our Guides">
+    </div>
+    <div class="grid-item text">
+      <h2>Our Guides & Services</h2>
+      <p>All certified guides, quality gear rentals, and trip options from family floats to adrenaline-pumping expeditions.</p>
+    </div>
+  </section>
+
+  <!-- Newsletter Signup -->
+  <section class="newsletter">
+    <h2 class="class_txt">Stay Updated</h2>
+    <form action="#" method="post">
+      <label>
+        Name: <input type="text" name="name" required>
+      </label>
+      <label>
+        Email: <input type="email" name="email" required>
+      </label>
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
   <footer>
-<p> &copy; 2025   &#10070; Kishie Bhenyu  &#10070; Gweru  &#10070; Zimbabwe </p>
+     <p class="footertx">&copy; 2025 | Peru Rafting Company | Kishie Bhenyu </p> 
+    
+    <nav class = "socialmedia">
+        <a href="https//facebook.com">
+            <img src="images/facebook.png" alt="facebook">
+        </a>
+        <a href="https//instagram.com">
+            <img src="images/instagram.png" alt="instagram">
+        </a>
+        <a href="https//x.com">
+            <img src="images/x.png" alt="x">
+        </a>
+         <a href="https://app.moqups.com/z6VjPw3XmGHBGDxB4Y9swpdgiss04mn4/view/page/ad64222d5">
+         <img src="images/wireframe.png" alt="x">
+         </a>
+    </nav>
   </footer>
 </body>
 </html>
