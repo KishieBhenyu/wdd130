@@ -167,7 +167,6 @@ footer{
     background-color: #835d91;
     margin: 0.5rem auto;
 	grid-template-columns: 120px 1fr 1fr;
-	
 	width: 1035px;
     height: 5%;
     left: 90px;
@@ -182,7 +181,7 @@ footer{
    width: 40px;
    height: auto;
    bottom: 10px;
-  
+   border-radius: 50%;
 
 }
 
@@ -241,7 +240,7 @@ figcaption{
 .footertxt{font-size: larger;
 position: relative;
 bottom: 15px;
-right: 400px;
+right: 360px;
 }
 
 
