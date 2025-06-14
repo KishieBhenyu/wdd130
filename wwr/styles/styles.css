@@ -129,7 +129,6 @@ h2{
   position: relative;
   max-width: 53.8%;
   left: 28%;
- 
 }
 .hero img {
   width: 100%;
@@ -138,14 +137,14 @@ h2{
 }
 .hero-text {
   position: absolute;
-  top: 50%; left: 50%;
+  top: 80%; left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
   text-align: center;
   padding: 30px;
    background-color: #ffffff;
    border-radius: 20px;
-   opacity: 0.9;
+  
 }
 .hero-text h1 {
   font-size: 2.5rem;
