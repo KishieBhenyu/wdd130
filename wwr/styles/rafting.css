@@ -105,7 +105,7 @@ h2{
    left: 80px;
 }
 
-selection{
+.history{
 
     margin: 16px;
     padding: 15px;
@@ -120,7 +120,7 @@ selection{
    
 }
 
-selection img{ 
+.history img{ 
    
    width: 150px;
    height: auto;
@@ -220,7 +220,7 @@ position: relative;
 max-width: 30px;
 
 }
-section {
+.adventure {
   position: relative;
  display: flex;
   flex-flow: row;
@@ -232,7 +232,7 @@ section {
   
 }
 
-section img {
+.adventure img {
   max-height: 131px;
   border: #47334e solid;
   
